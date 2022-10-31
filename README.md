@@ -1,3 +1,14 @@
+# Environment
+```sh
+# https://zhuanlan.zhihu.com/p/561834914
+jupyter notebook password
+Enter password: 
+Verify password: 
+[NotebookPasswordApp] Wrote hashed password to /root/.jupyter/jupyter_notebook_config.json
+
+nohup jupyter notebook --allow-root  2>&1 > nohup.out &
+```
+
 # Deep Learning with PyTorch
 
 This repository contains code for the book Deep Learning with PyTorch by Eli Stevens, Luca Antiga, and Thomas Viehmann, published by Manning Publications.
