@@ -6,7 +6,8 @@ Enter password:
 Verify password: 
 [NotebookPasswordApp] Wrote hashed password to /root/.jupyter/jupyter_notebook_config.json
 
-nohup jupyter notebook --allow-root  2>&1 > nohup.out &
+nohup jupyter notebook --port 8888 --allow-root  2>&1 > nohup.out &
+http://10.26.21.51:8888
 ```
 
 # Deep Learning with PyTorch
